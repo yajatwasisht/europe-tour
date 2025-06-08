@@ -4,16 +4,15 @@ import React from 'react';
 
 const AboutUs: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 overflow-x-hidden">
       {/* Hero Section */}
       <section className="relative h-[60vh] bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1526772662000-3f88f10405ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80')" }}>
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-        <div className="relative container mx-auto px-4 h-full flex items-center">
-          <div className="text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">About Zenith</h1>
-            <p className="text-xl md:text-2xl max-w-2xl">
-              Your trusted partner in creating unforgettable European travel experiences
-            </p>
+        <div className="absolute inset-0 bg-black bg-opacity-50">
+          <div className="container mx-auto px-4 h-full flex items-center">
+            <div className="text-white">
+              <h1 className="text-5xl font-bold mb-4">About Zenith Europe</h1>
+              <p className="text-xl mb-8">Your trusted partner in European travel experiences</p>
+            </div>
           </div>
         </div>
       </section>

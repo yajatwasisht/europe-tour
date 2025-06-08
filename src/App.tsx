@@ -11,7 +11,7 @@ function App() {
 
   return (
     <Router>
-      <div className="min-h-screen flex flex-col w-full bg-gray-50">
+      <div className="min-h-screen bg-gray-50 overflow-x-hidden">
         {/* Navbar */}
         <nav className="bg-white shadow-md w-full">
           <div className="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -57,7 +57,7 @@ function App() {
         </nav>
 
         {/* Main Content */}
-        <main className="flex-grow w-full">
+        <main className="overflow-x-hidden">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
