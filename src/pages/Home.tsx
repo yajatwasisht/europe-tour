@@ -21,24 +21,24 @@ setTravelers(value);
 return (
 <div className="min-h-screen bg-gray-50 overflow-x-hidden">
 {/* Hero Section */}
-<div className="relative h-[60vh] bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1526772662000-3f88f10405ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80')" }}>
-<div className="absolute inset-0 bg-black bg-opacity-50">
-<div className="container mx-auto px-4 h-full flex items-center">
-<div className="text-white max-w-3xl">
-<h1 className="text-5xl font-bold mb-4">Discover Europe</h1>
-<p className="text-xl mb-8">Experience the magic of Europe with our curated tours and travel experiences.</p>
-<div className="flex gap-4">
-<button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg">
-Book Now
-</button>
-<button className="bg-white hover:bg-gray-100 text-gray-800 px-6 py-3 rounded-lg">
-Learn More
-</button>
-</div>
-</div>
-</div>
-</div>
-</div>
+<section className="relative h-[60vh] bg-cover bg-center" style={{ backgroundImage: "url('https://readdy.ai/api/search-image?query=Stunning%20panoramic%20view%20of%20Paris%20with%20Eiffel%20Tower%20at%20sunset%2C%20beautiful%20European%20cityscape%20with%20historic%20architecture%2C%20warm%20golden%20light%20illuminat')" }}>
+  <div className="absolute inset-0 bg-black bg-opacity-50">
+    <div className="container mx-auto px-4 h-full flex items-center">
+      <div className="text-white max-w-3xl">
+        <h1 className="text-5xl font-bold mb-4">Discover Europe</h1>
+        <p className="text-xl mb-8">Experience the magic of Europe with our curated tours and travel experiences.</p>
+        <div className="flex gap-4">
+          <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg">
+            Book Now
+          </button>
+          <button className="bg-white hover:bg-gray-100 text-gray-800 px-6 py-3 rounded-lg">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 {/* Search Section */}
 <section className="container mx-auto px-4 -mt-16 relative z-20">
 <div className="bg-white rounded-lg shadow-xl p-6">
