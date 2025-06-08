@@ -21,7 +21,7 @@ setTravelers(value);
 return (
 <div className="min-h-screen bg-gray-50 overflow-x-hidden">
 {/* Hero Section */}
-<div className="relative h-[60vh] bg-cover bg-center" style={{ backgroundImage: "url('https://readdy.ai/api/search-image?query=Stunning%20panoramic%20view%20of%20Paris%20with%20Eiffel%20Tower%20at%20sunset%2C%20beautiful%20European%20cityscape%20with%20historic%20architecture%2C%20warm%20golden%20light%20illuminat')" }}>
+<div className="relative h-[60vh] bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1526772662000-3f88f10405ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80')" }}>
 <div className="absolute inset-0 bg-black bg-opacity-50">
 <div className="container mx-auto px-4 h-full flex items-center">
 <div className="text-white max-w-3xl">
