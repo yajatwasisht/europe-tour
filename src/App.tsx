@@ -73,7 +73,7 @@ function App() {
               <div className="text-center md:text-left">
                 <div className="flex flex-col items-center md:items-start">
                   <img src="/images/zenith.png" alt="Zenith" className="h-12 mb-4" />
-                  <p className="text-gray-600">Discover the best of Europe with our curated tours and travel experiences.</p>
+                  <p className="text-white">Discover the best of Europe with our curated tours and travel experiences.</p>
                 </div>
               </div>
               <div>
