@@ -16,7 +16,7 @@ function App() {
         <nav className="bg-white shadow-md w-full">
           <div className="container mx-auto px-4 py-4 flex justify-between items-center">
             <div className="flex items-center">
-              <img src="/src/pages/zenith.png" alt="Zenith" className="h-10 mr-4" />
+              <img src="/images/zenith.png" alt="Zenith" className="h-10 mr-4" />
               <div className="hidden md:flex ml-10 space-x-6">
                 <a href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</a>
                 <a href="/destinations" className="text-gray-700 hover:text-blue-600 font-medium">Destinations</a>
@@ -71,7 +71,7 @@ function App() {
           <div className="container mx-auto px-4 py-8">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               <div>
-                <img src="/src/pages/zenith.png" alt="Zenith" className="h-12 mb-4" />
+                <img src="/images/zenith.png" alt="Zenith" className="h-12 mb-4" />
                 <p className="text-gray-600">Discover the best of Europe with our curated tours and travel experiences.</p>
               </div>
               <div>
