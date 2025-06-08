@@ -21,24 +21,25 @@ setTravelers(value);
 return (
 <div className="min-h-screen bg-gray-50 overflow-x-hidden">
 {/* Hero Section */}
-<div className="relative h-[60vh] bg-cover bg-center" style={{ backgroundImage: "url('https://readdy.ai/api/search-image?query=Stunning%20panoramic%20view%20of%20Paris%20with%20Eiffel%20Tower%20at%20sunset%2C%20beautiful%20European%20cityscape%20with%20historic%20architecture%2C%20warm%20golden%20light%20illuminat')" }}>
-  <div className="absolute inset-0 bg-black bg-opacity-50">
-    <div className="container mx-auto px-4 h-full flex items-center">
-      <div className="text-white max-w-3xl">
-        <h1 className="text-5xl font-bold mb-4">Discover Europe</h1>
-        <p className="text-xl mb-8">Experience the magic of Europe with our curated tours and travel experiences.</p>
-        <div className="flex gap-4">
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg">
-            Book Now
-          </button>
-          <button className="bg-white hover:bg-gray-100 text-gray-800 px-6 py-3 rounded-lg">
-            Learn More
-          </button>
-        </div>
-      </div>
+<section className="relative h-[600px] overflow-hidden">
+  <div className="absolute inset-0">
+    <img
+      src="https://readdy.ai/api/search-image?query=Stunning%20panoramic%20view%20of%20Paris%20with%20Eiffel%20Tower%20at%20sunset%2C%20beautiful%20European%20cityscape%20with%20historic%20architecture%2C%20warm%20golden%20light%20illuminating%20the%20scene%2C%20atmospheric%20clouds%20in%20the%20sky%2C%20perfect%20travel%20destination%20photography%20with%20depth%20and%20dramatic%20lighting&width=1440&height=600&seq=1&orientation=landscape"
+      alt="Europe Destinations"
+      className="w-full h-full object-cover object-top"
+    />
+    <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-transparent"></div>
+  </div>
+  <div className="container mx-auto px-4 h-full flex items-center relative z-10">
+    <div className="max-w-xl text-white">
+      <h1 className="text-4xl md:text-5xl font-bold mb-4">Discover the Magic of Europe</h1>
+      <p className="text-xl mb-8">Explore breathtaking destinations, immerse in rich cultures, and create unforgettable memories with our premium guided tours.</p>
+      <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-button text-lg font-medium transition duration-300 cursor-pointer whitespace-nowrap">
+        Start Your Journey
+      </button>
     </div>
   </div>
-</div>
+</section>
 {/* Search Section */}
 <section className="container mx-auto px-4 -mt-16 relative z-20">
 <div className="bg-white rounded-lg shadow-xl p-6">
