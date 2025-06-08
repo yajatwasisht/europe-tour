@@ -70,10 +70,10 @@ function App() {
         <footer className="bg-gray-800 text-white">
           <div className="container mx-auto px-4 py-12">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-              <div className="text-center md:text-left">
-                <div className="flex flex-col items-center md:items-end">
+              <div className="text-center">
+                <div className="flex flex-col items-center">
                   <img src="/images/zenith.png" alt="Zenith" className="h-12 mb-4" />
-                  <p className="text-white text-center md:text-right">Discover the best of Europe with our curated tours and travel experiences.</p>
+                  <p className="text-white">Discover the best of Europe with our curated tours and travel experiences.</p>
                 </div>
               </div>
               <div>
@@ -85,14 +85,14 @@ function App() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">Contact</h3>
+                <h3 className="text-lg font-semibold text-white-800 mb-4">Contact</h3>
                 <ul className="space-y-2">
                   <li className="text-white-600">Email: info@zenith.com</li>
                   <li className="text-white-600">Phone: +1 234 567 890</li>
                 </ul>
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">Follow Us</h3>
+                <h3 className="text-lg font-semibold text-white-800 mb-4">Follow Us</h3>
                 <div className="flex space-x-4">
                   <a href="#" className="text-white-600 hover:text-blue-600"><i className="fab fa-facebook"></i></a>
                   <a href="#" className="text-white-600 hover:text-blue-600"><i className="fab fa-twitter"></i></a>
